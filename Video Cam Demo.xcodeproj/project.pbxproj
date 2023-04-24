@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		D68FBCA229D78D74009E4A16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FBCA129D78D74009E4A16 /* AppDelegate.swift */; };
 		D68FBCA429D78D74009E4A16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FBCA329D78D74009E4A16 /* SceneDelegate.swift */; };
-		D68FBCA629D78D74009E4A16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FBCA529D78D74009E4A16 /* ViewController.swift */; };
 		D68FBCA929D78D74009E4A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68FBCA729D78D74009E4A16 /* Main.storyboard */; };
 		D68FBCAB29D78D75009E4A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68FBCAA29D78D75009E4A16 /* Assets.xcassets */; };
 		D68FBCAE29D78D75009E4A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68FBCAC29D78D75009E4A16 /* LaunchScreen.storyboard */; };
+		D68FBCB629D78E4C009E4A16 /* VideoCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FBCB529D78E4C009E4A16 /* VideoCamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D68FBC9E29D78D74009E4A16 /* Video Cam Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Cam Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68FBCA129D78D74009E4A16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D68FBCA329D78D74009E4A16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D68FBCA529D78D74009E4A16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D68FBCA829D78D74009E4A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D68FBCAA29D78D75009E4A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D68FBCAD29D78D75009E4A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D68FBCAF29D78D75009E4A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68FBCB529D78E4C009E4A16 /* VideoCamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				D68FBCA129D78D74009E4A16 /* AppDelegate.swift */,
 				D68FBCA329D78D74009E4A16 /* SceneDelegate.swift */,
-				D68FBCA529D78D74009E4A16 /* ViewController.swift */,
 				D68FBCA729D78D74009E4A16 /* Main.storyboard */,
 				D68FBCAA29D78D75009E4A16 /* Assets.xcassets */,
 				D68FBCAC29D78D75009E4A16 /* LaunchScreen.storyboard */,
 				D68FBCAF29D78D75009E4A16 /* Info.plist */,
+				D68FBCB529D78E4C009E4A16 /* VideoCamViewController.swift */,
 			);
 			path = "Video Cam Demo";
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D68FBCA629D78D74009E4A16 /* ViewController.swift in Sources */,
+				D68FBCB629D78E4C009E4A16 /* VideoCamViewController.swift in Sources */,
 				D68FBCA229D78D74009E4A16 /* AppDelegate.swift in Sources */,
 				D68FBCA429D78D74009E4A16 /* SceneDelegate.swift in Sources */,
 			);
